@@ -1,11 +1,13 @@
 import React from 'react'
+import "./appServices.css"
+
 
 const AppServices = () => {
   return (
     <>
     <div className="AppServices">
       <div className='left-box1'>
-        <div className='content-box1'>
+        <div className='content-box1'> 
           <h3>IOS APPLICATIONS</h3>
           <p>"iOS app development involves creating mobile applications for Apple's devices, such as iPhones and iPads, using Swift or Objective-C programming languages."</p>
         </div>
