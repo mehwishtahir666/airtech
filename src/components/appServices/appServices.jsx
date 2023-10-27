@@ -1,5 +1,7 @@
 import React from 'react'
 import "./appServices.css"
+import img1 from "./images/mobile_infographic.png.webp" 
+import img2 from "./images/mobile_bg.png.webp"
 
 
 const AppServices = () => {
@@ -22,9 +24,10 @@ const AppServices = () => {
       </div>
       <div className='center-box1'>
         <div className='mobile'>
+          <img src={img2} alt='' />
           <div className='mike'></div>
           <div className='screen'>
-            <img src="images/robo.jpg" alt='' />
+            <img src={img1} alt='' />
           </div>
           <div className='content-screen'>
             <h2>perform & inspire</h2>
