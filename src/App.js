@@ -1,17 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import AppServices from './components/appServices/appServices';
+import { Banner } from './components/Banner';
+import { About } from './components/About';
+import { Services } from './components/Services';
+import { Footer } from './components/Footer';
+import { Whyus } from './components/Whyus';
+import { Testimonials } from './components/Testimonials';
+import { Pricing } from './components/Pricing';
+import { Contact } from './components/Contact';
+import { Loader } from './components/Loader';
+import Country from './components/Countries';
+import Platforms from './components/Awards';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/AppServices" element={ <AppServices/>} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div className="App">
+      {/* <Loader/> */}
+   <Banner/>
+   <About/>
+   <Services/>
+   <Whyus/>
+   <Testimonials/>
+   {/* <Pricing/> */}
+  <Platforms/>
+   <Country/>
+   <Contact/>
+   <Footer/>
+    </div>
   );
 }
 
