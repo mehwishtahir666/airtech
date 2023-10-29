@@ -13,7 +13,7 @@ export const About = () => {
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
                     <div class="inner-column">
                     <div class="section-head col-sm-12 logi"><h4>
-                      <span>About</span> Airtech</h4>
+                      <span>About</span> Us</h4>
                       <h2>We are Creative Tech Enthusiast working since 2020</h2>
                       </div>
                         {/* <div class="sec-title">

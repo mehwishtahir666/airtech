@@ -1,46 +1,44 @@
 import React, { useEffect, useState } from 'react'
 import { Nav } from './Nav'
 import { FcGlobe, FcRight } from "react-icons/fc";
+import { AiFillStar } from "react-icons/ai";
 
 export const Banner = () => {
   
   var Interval;
+  let [count1,setCount1]=useState(0)
+  let [count2,setCount2]=useState(0)
+  let [count3,setCount3]=useState(0)
+
+
   function getData(){
-    var countC=document.querySelector(".countC")
-    var countP=document.querySelector(".countP")
-    var countM=document.querySelector(".countM")
-    let count1=0
-    let count2=0
-    let count3=0
     count1++
     count2++
     count3++
     if(count1>300){
-      console.log(count1,"...")
-        return
+
+      return false
     }else{
-        countC.innerHTML=count1
+        setCount1(count1)
     }
     if(count2>200){
-        return
+        return false
     }else{
-        countP.innerHTML=count2
+        setCount2(count2)
     }
     if(count3>100){
-        return
+        return false
     }
    else{
-        countM.innerHTML=count3
+        setCount3(count3)
+        return false
     }
  
 }
 
-window.onload=function(){
- Interval=setInterval(getData)
-}
-// useEffect(()=>{
-//  const Interval=setInterval(getData)
-// },[])
+useEffect(()=>{
+  Interval=setInterval(getData)
+},[])
 
   return (
     <>
@@ -48,7 +46,46 @@ window.onload=function(){
         <Nav />
         {/* <div className="top-blind"></div> */}
         <div className="container-banner">
-          <div className="left-banner">
+          <div className="left-container">
+            <p>Trusted by 2M+ users <AiFillStar className='star star-one'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar/> </p>
+          <h1>Websitee score is important , check your Website score now</h1>
+          <p className='sp-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at magni cumque iusto reiciendis vero optio aut alias recusandae nobis culpa beatae temporibus reprehenderit, hic atque architecto ex sapiente assumenda suscipit ducimus aliquam dolore provident in. Voluptate quis est placeat?</p>
+          <div className="input-banner">
+            <input type="text" placeholder='which service ?' />
+            <button>Search Now</button>
+          </div>
+          </div>
+          <div className="right-container">
+            <div className="inner-right-con"></div>
+          </div>
+        </div>
+        <div className="tabs3">
+              <div className="tab11">
+                <h2 className='countC'>{count1} <span>+</span> </h2>
+                <p>Projects</p>
+              </div>
+              <div className="tab11">
+              <h2 className='countP' >{count2} <span>+</span> </h2>
+                <p>Employes</p>
+              </div>
+              <div className="tab11">
+              <h2 className='countM'>{count3} <span>+</span> </h2>
+                <p>Global Clients</p>
+              </div>
+            </div>
+      </div>
+    </>
+  )
+}
+
+
+
+
+
+
+
+
+          {/* <div className="left-banner">
             <h1>AirTech Marketing</h1>
             <h2>Create Your Success Business <FcGlobe/></h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, qui ut itaque  iure odit veritatis ipsam numquam tempore veniam! Modi!</p>
@@ -67,9 +104,4 @@ window.onload=function(){
               </div>
             </div>
           </div>
-          
-        </div>
-      </div>
-    </>
-  )
-}
+           */}
