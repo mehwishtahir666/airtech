@@ -1335,7 +1335,8 @@ a:hover {
 }
 
 .section-head {
-	margin-bottom: 60px;
+	padding-top:20px;
+	margin-bottom: 20px;
 }
 
 .section-head h4 {
@@ -1598,7 +1599,7 @@ p.awesome_line {
 
 .testimonials {
 	background-color: #EDF2F8;
-	padding: 40px 10px 0 10px;
+	padding: 40px 10px 40px 10px;
 }
 
 a:link,
@@ -1618,7 +1619,7 @@ a:hover {
 }
 
 .innerdiv {
-	transform: scale(0.9);
+	/* transform: scale(0.9); */
 	display: grid;
 	/* border:10px solid var(--primary); */
 	grid-gap: 1.5rem;
@@ -4013,7 +4014,7 @@ a:focus {
 	height: auto;
 	width: 100%;
 	background-color:#EDF2F8;
-	padding: 30px;
+	padding:0 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -4021,13 +4022,14 @@ a:focus {
 	text-align: center;
 }
 
+
 .award .cont {
 	height: auto;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 20px;
 	flex-wrap: wrap;
+	border:1px solid red;
 	align-items: center;
 }
 
