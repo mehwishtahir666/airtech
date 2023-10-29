@@ -1,7 +1,7 @@
 import React from "react";
 import "./result.css"
-import image001 from "./testimonial-images/image_investment.jpeg"
-import image002 from "./testimonial-images/image_seo-audit-2-600x400.webp"
+import image001 from "./images/image_investment.jpeg"
+import image002 from "./images/image_seo-audit-2-600x400.webp"
 import {BsCheck2Circle} from "react-icons/bs"
 const Testimonials=()=>{
 return(

@@ -4,11 +4,7 @@ import { Home } from './components/Home/Home';
 import Projects from './components/PortfolioPage';
 import { Route, Routes } from 'react-router-dom';
 import { ContactUs } from './components/contact/ContactUs';
-<<<<<<< Updated upstream
-import Solutuions from './components/solutions/solutions';
-=======
 import { AboutUs } from './components/aboutUs/AboutUs';
->>>>>>> Stashed changes
 function App() {
   return (
     <div className="App">
@@ -18,7 +14,7 @@ function App() {
         <Route path='/contact' element={<ContactUs/>} />
         <Route path='/aboutus' element={<AboutUs/>} />
       </Routes>
-        <Solutuions/>
+      
     </div>
   );
 }
