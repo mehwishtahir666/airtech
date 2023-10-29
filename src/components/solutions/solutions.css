@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif !important;
+	list-style: none;
+	box-sizing: border-box;
+}
+:root {
+	--primary: #5C88E8;
+	--primary-white: #F6F6F6;
+	--primary--black: rgba(0, 0, 0, 0.763);
+	--small-text: 13px;
+	--normal--para: 15px;
+	--h1: 50px;
+	--h2: 25px;
+	--h3: 20px;
+	--main: 30px;
+	--border-radius: 50px;
+	--mainColor: #127A93;
+	--color1: #0C5C97;
+	--subColor: #FAD509;
+	--paragraphSize: 18px;
+	--box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.solutions{
+    height: auto;
+    width: 100%;
+    background-image: url('/public/images/backgrond.webp');
+    padding: 40px 60px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+ .solutions .cont{
+     height: auto;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     flex-wrap: wrap;
+     align-items: center;
+ }
+ .solutions h1{
+     color: white;
+     font-size: 45px;
+ }
+ .solutions .left, .solutions .right{
+    height: auto;
+    width: calc(35% - 20PX);
+ }
+ .solutions .box-a{
+     padding: 7% 2%;
+     height: 180px;
+     text-align: left;
+     border-radius: 10px;
+     margin-top: 30px;
+     display: flex;
+     align-items: flex-start;
+     box-shadow:1px  0px 8px 24px ;
+ }
+ .solutions .good{
+     font-size: 45px;
+     color: #21B573;
+ }
+ .solutions .li1{
+     color: #21B573;
+     font-size: 17px;
+     margin: 0 !important;
+ }
+ .solutions ul li{
+     color: white;
+     font-size: 15px;
+     font-weight: 500;
+     margin-top: 10px;
+ }
+ .solutions ul{
+    margin-left: 20px ;
+ }
+
+ @media screen and (max-width:1000px) {
+    .solutions .center{
+        display: none;
+    }
+    .solutions .left, .solutions .right{
+        width: calc(50% - 20px);
+    }
+    .solutions .box-a{
+        height: 140px;
+    }
+}
+@media screen and (max-width:750px) {
+    .countries{
+        padding: 30px;
+    }
+    .solutions .left, .solutions .right{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .solutions .box-a{
+        text-align: left;
+        margin: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .solutions .left, .solutions .right{
+        padding: 0;
+    }
+    .solutions{
+        padding: 20px 10px;
+        border: 1px soid;
+    }
+}
