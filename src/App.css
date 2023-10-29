@@ -266,7 +266,7 @@
 
 .bottom_nav ul {
 	height: auto;
-	width: 600px;
+	width: 500px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -4059,9 +4059,8 @@ a:focus {
 	box-shadow: 1px 0px 8px 24px;
 	box-shadow: 5px 4px 10px 3px rgb(200, 214, 214);
 }
-
 .award .center img {
-	width: 100%;
+	width: 90%;
 }
 
 .award .box1 img {
@@ -4269,4 +4268,50 @@ a:focus {
         padding: 5px 8px;
         margin: 3px;
 	}
+}
+
+/* ----- */
+.a-banner{
+    height: 85vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(21, 21, 21, .4), rgba(13, 13, 13, .4)) ,url('./images/homepage-hero1a-scaled.jpg');
+    background-size: cover;
+    background-position: top right;
+    display: flex;
+	flex-direction: column;
+}
+.a-banner .textbox{
+    /* border-left:  6px solid var(--primary); */
+    height: auto;
+	border-radius:10px;
+	border-radius:10px;
+    width: 90%;
+	margin: auto;
+    padding: 0px 5px;
+}
+.a-banner h1{
+    font-size: 40px;
+    font-weight:600;
+    color:rgba(255, 255, 255, 0.963);
+}
+.a-banner p{
+    font-size: 18px;
+	color:rgba(255, 255, 255, 0.963);
+}
+.textbox button{
+	border:none;
+	color:white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+	background-image: linear-gradient(to right,
+			#5C88E8,
+			#5BA6E6,
+			#3EDDDE);
+			background-size: 300% 100%;
+	border-radius: 50px;
+	moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
 }
