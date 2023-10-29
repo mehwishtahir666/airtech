@@ -24,6 +24,7 @@ export const Nav = () => {
             <li>SERVICES</li>
             <li>BLOG</li>
             <Link to="/projects"><li>PORTFOLIO</li></Link>
+            <Link to="/contact"></Link>
             <li>TESTIMONIALS</li>
             <li>CONTACT US</li>
           </ul>
