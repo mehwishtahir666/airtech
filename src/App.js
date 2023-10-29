@@ -5,6 +5,8 @@ import Projects from './components/PortfolioPage';
 import { Route, Routes } from 'react-router-dom';
 import { ContactUs } from './components/contact/ContactUs';
 import { AboutUs } from './components/aboutUs/AboutUs';
+import { ServicesPage } from './components/services/ServicesPage';
+
 function App() {
   return (
     <div className="App">
@@ -13,8 +15,8 @@ function App() {
         <Route path='/projects' element={<Projects/>} />
         <Route path='/contact' element={<ContactUs/>} />
         <Route path='/aboutus' element={<AboutUs/>} />
+        <Route path='/services' element={<ServicesPage/>} />
       </Routes>
-      
     </div>
   );
 }
