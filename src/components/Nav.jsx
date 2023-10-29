@@ -24,9 +24,8 @@ export const Nav = () => {
             <li>SERVICES</li>
             <li>BLOG</li>
             <Link to="/projects"><li>PORTFOLIO</li></Link>
-            <Link to="/contact"></Link>
             <li>TESTIMONIALS</li>
-            <li>CONTACT US</li>
+            <Link to="/contact"><li>CONTACT US</li></Link>
           </ul>
           <button className='bn27'>Get a Quote</button>
         </div>
