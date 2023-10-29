@@ -17,10 +17,10 @@ export const Nav = () => {
         </div>
         <div className="bottom_nav">
           <div className="logo">
-            <img src="/images/lbw1.png" alt="" />
+            <Link to="/"><img src="/images/lbw1.png" alt="" /></Link>
           </div>
           <ul>
-            <li>ABOUT</li>
+            <Link to="/aboutus"><li>ABOUT</li></Link>
             <li>SERVICES</li>
             <li>BLOG</li>
             <Link to="/projects"><li>PORTFOLIO</li></Link>

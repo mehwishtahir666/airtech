@@ -3,7 +3,7 @@ import React from 'react'
  const Platforms = () => {
   return (
     <div className='award'>
-     <div class="section-head col-sm-12">
+     <div class="section-head col-sm-12 award-title">
           <h4><span>Awar</span>ds</h4>
           <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know that how to handle it. With working knowledge of online, SEO and social media.</p>
         </div>

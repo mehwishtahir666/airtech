@@ -29,7 +29,7 @@ export const Whyus = () => {
               <span class="icon feature_box_col_one no-bro">
               <FaLightbulb className='icon-multi2'/>
             </span>
-            <h6>Modern Design</h6>
+            <h6>Quick Responsiveness</h6>
             <p>We use latest technology for the latest.</p>
           </div>
         </div>
