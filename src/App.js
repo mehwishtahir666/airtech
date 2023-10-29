@@ -4,8 +4,8 @@ import { Home } from './components/Home/Home';
 import Projects from './components/PortfolioPage';
 import { Route, Routes } from 'react-router-dom';
 import { ContactUs } from './components/contact/ContactUs';
-import { AboutUs } from './components/aboutUs/AboutUs';
 import { ServicesPage } from './components/services/ServicesPage';
+import { AboutUs } from './components/aboutUs/AboutUs';
 
 function App() {
   return (

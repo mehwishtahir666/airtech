@@ -4,7 +4,6 @@
     font-family: 'Montserrat', sans-serif !important;
     list-style: none;
     box-sizing: border-box;
-    /* border:1px solid red; */
 }
 
 :root {
@@ -27,10 +26,12 @@
 
 .main_page {
     width: 100%;
-    height: auto;
+    height: 80vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.717), rgba(0, 0, 0, 0.717)), url("./images/image_consultation-request-1.jpg");
-    /* border:1px solid red; */
-    padding: 150px 50px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -43,12 +44,12 @@
     color: white;
     margin: auto;
     text-align: center;
-    font-size: var(--h1);
-    font-size: var(--paragraphSize);
 }
 
 .main_page .text p {
     margin-top: 20px;
+    font-weight:lighter;
+    font-size:var(--normal--para);
 }
 
 .form_page {
@@ -84,20 +85,28 @@
     margin-left:20px;
     margin-top:30px;
     padding-left:10px;
+    font-size:var(--small-text);
     padding-bottom:10px;
     width:calc(50% - 20px);
+    padding:10px;
+    border-radius:8px;
 }
 .email-inp{
     width:82%;
 }
 .text-area{
+    font-size:var(--small-text);
     width:95%;
     margin-left:20px;
+    outline:none;
     margin-top:30px;
-    padding-left:10px;
-    padding-bottom:10px;
+    padding:10px;
+    border-radius:8px;
     border:none;
     border-bottom:1px solid ;
+}
+.text-area:focus,.form_page .form-box input:focus{
+    border:1px solid var(--primary);
 }
 .form_page .form-box button{
     width:95%;
@@ -109,7 +118,7 @@
     color:white;
     background-color: #5C88E8;
     letter-spacing:2px;
-    font-size:var(--h2);
+    font-size:var(--h3);
 }
 
 

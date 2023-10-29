@@ -1,10 +1,13 @@
 import React from 'react'
 import "./ContactUs.css"
+import { Nav } from '../Nav'
+import { Footer } from '../Footer'
 
 export const ContactUs = () => {
   return (
     <>
     <div className='main_page'>
+    <Nav/>
       <div className='text'>
         <h1>Let’s chat about your goals</h1>
         <p>Book a comprehensive consultation or strategy session with one of our experts. We’ll discuss your marketing needs and recommend solutions for your branding, website and digital marketing.</p>
@@ -21,6 +24,7 @@ export const ContactUs = () => {
         <button>SUBMIT</button>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }

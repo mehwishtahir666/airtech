@@ -12,7 +12,7 @@ export const Whyus = () => {
     <div class="container">
       <div class="row">
         <div class="section-head col-sm-12">
-          <h4><span>Why Choose</span> Airtech ?</h4>
+          <h4><span>Everything You need in a</span> Business !</h4>
           <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know that how to handle it. With working knowledge of online, SEO and social media.</p>
         </div>
         <div class="col-lg-3 col-sm-6">
