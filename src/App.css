@@ -4172,7 +4172,7 @@ a:focus {
 
 .projects{
     width:100%;
-    height:100vh;
+    height:auto;
     background-color:white;
     padding:20px;
 }
@@ -4436,4 +4436,43 @@ a:focus {
         margin-top:20px;
         width:100%;
 	}
+}
+
+/* ---------- */
+
+.portfoliobanner{
+    height:70vh;
+    background-image:linear-gradient(rgba(5, 5, 5, 0.6), rgba(3, 3, 3, 0.6)) ,url("./images/8.jpg") ;
+    background-size: cover;
+    background-position: center;
+	display: flex;
+	flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.inin{
+	height:90%;
+	width:90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:flex-start;
+	/* border:1px solid red; */
+}
+.portfoliobanner .inin h1{
+	font-size: 35px;
+	color: white;
+    font-weight: bold
+}
+.portfoliobanner .inin button{
+    background-color: #01BCA7;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 30px;
 }
