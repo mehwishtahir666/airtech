@@ -1,6 +1,8 @@
 import React from 'react'
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BiChevronDown } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+
 
 export const Nav = () => {
   return (
@@ -17,11 +19,18 @@ export const Nav = () => {
         </div>
         <div className="bottom_nav">
           <div className="logo">
-            <Link to="/"><img src="/images/lbw1.png" alt="" /></Link>
+            <Link to="/"><img src="/images/haris1-logo.jpg" alt="" /></Link>
           </div>
           <ul>
             <Link to="/aboutus"><li>ABOUT</li></Link>
-            <Link to="/services"><li>SERVICES</li></Link>
+            <Link to="/services"><li>SERVICES <BiChevronDown className='bsbs'/> 
+            <ul className=''>
+              <li>SEO</li>
+              <li>Marketing</li>
+              <li>Web Development</li>
+              <li>App Development</li>
+            </ul>
+            </li></Link>
             <Link to="/portfolio"><li>PORTFOLIO</li></Link>
             <li>TESTIMONIALS</li>
             <Link to="/contact"><li>CONTACT US</li></Link>
