@@ -25,7 +25,7 @@ export const Nav = () => {
             <Link to="/aboutus"><li>ABOUT</li></Link>
             <Link to="/services"><li>SERVICES <BiChevronDown className='bsbs'/> 
             <ul className=''>
-              <li>SEO</li>
+            <Link to="/services/seo"><li>SEO</li></Link>
               <li>Marketing</li>
               <li>Web Development</li>
               <li>App Development</li>

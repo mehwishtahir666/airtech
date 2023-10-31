@@ -6,7 +6,7 @@ import { ContactUs } from './components/contact/ContactUs';
 import { ServicesPage } from './components/services/ServicesPage';
 import { AboutUs } from './components/aboutUs/AboutUs';
 import { Portfolio } from './components/portfolio/Portfolio';
-
+import { SeoService } from './components/SeoService';
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,8 @@ function App() {
         <Route path='/contact' element={<ContactUs/>} />
         <Route path='/aboutus' element={<AboutUs/>} />
         <Route path='/services' element={<ServicesPage/>} />
+        <Route path='/services/seo' element={<SeoService />} />
+
       </Routes>
     </div>
   );
