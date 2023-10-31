@@ -249,7 +249,7 @@
 
 .logo {
 	height: auto;
-	/* border:1px solid red; */
+	/* border:1px	 solid red; */
 	padding-top: 10px;
 	width: 200px;
 }
@@ -265,7 +265,7 @@
 }
 
 .bottom_nav > ul {
-	height: auto;
+	height:100%;
 	width: 550px;
 	display: flex;
 	justify-content: space-between;
@@ -275,11 +275,15 @@
 .bottom_nav > ul li {
 	color: var(--primary--black);
 	font-size: var(--normal--para);
-	/* border:1px solid red; */
 	display: flex;
 	align-items: center !important;
 	cursor: pointer;
 	position: relative;
+}
+.bottom_nav > ul a{
+	display: flex;
+	height:100%;
+	align-items: center;
 }
 .bottom_nav > ul li ul{
 border-radius:5px;
@@ -326,7 +330,7 @@ transition: all 0.5s;
 }
 
 .bottom_nav > ul li ul li:hover::before{
-	transition:all 0.5s !important;
+	transition:all 0.8s !important;
 	left:100%;
 	opacity:1;
 	visibility: visible;
@@ -4567,4 +4571,265 @@ a:focus {
     justify-content: center;
     font-size: 35px;
     margin-top: 30px;
+}
+
+.aboutText{
+	width:100%;
+	display: flex;
+	padding:0 20px 20px 40px;
+}
+.inL-abText{
+	height:100%;
+	width:70%;
+}
+.inR-abText{
+	height:40vh;
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	position: relative;
+}
+.inR-abText img{
+	/* position: absolute; */
+	width:30%;
+}
+/* .inR-abText .frst1{
+	width:30%;
+}
+.inR-abText .scnd2{
+	width:30%;
+}
+.inR-abText .thrd3{
+	width:40%;
+	left:50%;
+	bottom: 0;
+	transform: translate(-50%);
+} */
+
+/* ----------------- */
+
+.realstate{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px ;
+    background-color: #FFFFFF;
+}
+.realstate .left{
+    /* border: 1px solid; */
+    height: max-content;
+    width: 40%;
+}
+.realstate h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #495057;
+}
+.realstate  .left p{
+    margin-top: 30px;
+    font-size: 19px;
+    color: #495057;
+}
+.realstate .left button{
+    background-color: #EC4F28;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size:18px;
+}
+.realstate .right{
+    height: auto;
+    width: 60%;
+    padding: 30px 0 30px 30px;
+}
+
+.realstate .right .box{
+    width: 95%;
+    padding: 15px;
+    height: 100%;
+    box-shadow: 2px 2px 4px 2px rgb(206, 206, 206);
+    border-radius: 10px;
+}
+.realstate img{
+    width: 100%;
+}
+.realstate .right li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.realstate .right .p-1{
+    font-size: 13px;
+    background-color: rgb(235, 235, 235);
+    width: max-content;
+    border-radius: 5px;
+    color: rgb(98, 98, 98);
+}
+.realstate .right h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #505050;
+}
+.realstate .right p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.realstate .right span{
+    font-size: 14px;
+    color: #565656;
+}
+.realstate .right .icon001{
+    font-size: 25px;
+    color: rgb(64, 64, 64);
+}
+.realstate .crousee{
+    padding: 20px 0 !important;
+}
+.padd{
+	padding:10px 0;
+}
+.abt-i{
+	color:var(--primary);
+}
+
+
+@media screen and (max-width:1075px){
+    .realstate .left{
+        width: 50%;
+    }
+    .realstate .right .box{
+        width: 95%;
+    }
+    .realstate .left h1{
+        font-size: 40px
+    }
+    .realstate .right{
+        width: 50%;
+        padding-left: 10px 5px;
+    }
+  }  
+
+@media screen and (max-width:1000px) {
+    .award .center{
+        display: none;
+    }
+    .award .left, .award .right{
+        width: calc(50% - 20px);
+    }
+    .award .box1{
+        height: 140px;
+    }
+    .about .left .box-1{
+        right: 0;
+        width: 50%;
+    }
+    .about .left .box2{
+        width: 55%;
+    }
+    .about .left .box3{
+        width: 60%;
+    }
+    .about .right .p1 {
+       margin-top: 10px;
+    }
+    .profile .boxdiv{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .profile .left{
+        width: 45%;
+    }
+    .profile .right{
+        width: 55%;
+    }
+    .realstate .left{
+        width: 100%;
+    }
+    .realstate .right{
+        width: 100%;
+        padding: 0;
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (max-width:850px){
+    .about{
+        padding: 30px 10%;
+     flex-direction: column;
+    }
+    .about .left, .about .right{
+        width: 100%;
+    }
+    .profile .left{
+        width: 80%;
+    }
+    .profile .right{
+      width: 100%;
+    }
+    .profile h1 , .profile .right h1{
+        font-size: 35px;
+    }
+    .a-banner h1{
+        font-size: 30px;
+    }
+    .profile .right .box{
+        width: 90%;
+    }
+    .realstate .crousee{
+        padding: 0 !important;
+        /* background-color: red; */
+    }
+    .realstate .rec-arrow-right{
+        display: none;
+    }
+    .realstate .rec-arrow-left{
+        display: none;
+    }
+}
+@media screen and (max-width:750px) {
+    .countries{
+        padding: 30px;
+    }
+    .award .left, .award .right{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .award .box1{
+        text-align: left;
+        margin: 10px;
+    }
+    .realstate{
+        padding: 30px 15px;
+    }
+}
+@media screen and (max-width:650px){
+    .a-banner{
+        background-position: left;
+        padding: 10px;
+    }
+    .a-banner .textbox{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .a-banner p{
+        font-size: 15px;
+    }
+    .a-banner h1{
+        font-size: 19px;
+    }
+}  
+@media screen and (max-width:550px){
+}
+@media screen and (max-width:500px){
+  .profile .left{
+    width: 100%;
+  }
+  .profile .right .box-1{
+    width: 49%;
+}
 }
