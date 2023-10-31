@@ -1,7 +1,17 @@
-import React from 'react'
-import {AiFillEye} from "react-icons/ai";
+import React, { useState } from "react";
+import Carousel from "react-elastic-carousel";
+import {AiOutlineStar } from "react-icons/ai";
+import {AiFillStar} from "react-icons/ai"
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+  { width: 768, itemsToShow: 3, },
+];
 
 const Projects = () => {
+  const [items, setItems] = useState([1, 2, 3, 4, 5, 6,]);
+
   return (
     <>
       <div className='projects'>
@@ -17,92 +27,38 @@ const Projects = () => {
           <button>Education Website</button>
           <button>Marketing</button>
         </div>
+
+        {/* ================================= */}
+
+
         <div className='card-box'>
 
-          <div className="card-1 card-one">
-            <img src="/images/hloo1.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1">
-            <img src="/images/hloo3.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1">
-            <img src="/images/hloo2.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1">
-            <img src="/images/hloo4.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1 card-one">
-            <img src="/images/hloo1.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1">
-            <img src="/images/hloo2.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1">
-            <img src="/images/hloo3.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>View</button>
-              <button>Details</button>
-            </div>
-          </div>
-          <div className="card-1">
-            <img src="/images/hloo4.jpg" alt="" />
-            <h3>Project name</h3>
-            <small>HTML CSS</small>
-            <p>in frontend</p>
-            <div className='button-div'>
-              <button>{AiFillEye} View</button>
-              <button>Details</button>
-            </div>
-          </div>
+          <Carousel breakPoints={breakPoints} >
+            {items.map((item) => (
+
+              <div className="card-1">
+                <img src="/images/hloo3.jpg" alt="" />
+                <h3>Project Name</h3>
+                <small>HTML CSS</small>
+                <p>E-Commerce</p>
+                <p> services, and information to users worldwide, catering to various needs and interests.</p>
+                <p className="icons">
+                <AiFillStar className="clr-yellow"/>
+                <AiFillStar className="icons clr-yellow"/>
+                <AiFillStar className="icons clr-yellow"/>
+                <AiOutlineStar className="icons"/>
+                <AiOutlineStar className="icons"/>
+                </p>
+                <div className='button-div'>
+                  <p className="button-p">VISIT WEBSITE</p>
+                </div>
+              </div>
+            ))}
+          </Carousel>
         </div>
       </div>
     </>
   )
 }
 
-export default Projects
+export default Projects 
