@@ -26,3 +26,56 @@
 	--paragraphSize: 18px;
 	--box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.seo_rightdiv,.seo_leftdiv{
+	height: max-content;
+	padding-bottom: 20px;
+}
+.seo_rightside-img{
+	width: 80%;
+margin-left: 6%;
+	margin-top: 12%;
+	position: relative;
+
+}
+.seo_rightpercentage-img{
+width: 5%;
+position: absolute;
+top: 20%;
+rotate:10deg;
+left: 11%;
+}
+.seo_rightside-h3{
+	font-size: var(--h3);
+}
+.seo_rightside-p,.seo_leftdiv-p{
+	font-size: var(--paragraphSize);
+}
+.seo_bulletpoints-row{
+	height: 40px;
+}
+.seo_leftdiv-h1{
+font-size: var(--main);
+color: var(--color1);
+}
+.seo_text-reset:hover{
+color: var(--mainColor);
+}
+.seo_leftdiv-h12{
+font-size: var(--main);
+}
+.seo_leftdiv-p1{
+	font-size: var(--normal--para);
+}
+.seo_leftdiv-heading {
+	color: var(--mainColor);
+}
+.seo_leftdiv-small-para {
+font-size: var(--paragraphSize);
+margin-top: 2%;
+}
+.seo_icons{
+color: var(--primary);
+}
+.seo_leftdiv-small{
+	height: 33px;
+}
