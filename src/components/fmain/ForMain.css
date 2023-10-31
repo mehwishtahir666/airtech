@@ -5,9 +5,9 @@
 }
 .ForMain{
     width:100%;
-    height:100vh;
+    height:auto;
     /* background-color:lightgray; */
-    padding:20px;
+    /* padding:20px; */
     box-sizing: border-box;
 }
 .ForMain .background-box{
@@ -18,7 +18,7 @@
     background-size:cover;
     background-position:bottom;
     padding:70px 20px;
-    margin-top:20px;
+    /* margin-top:20px; */
     display:flex;
     justify-content:center;
     align-items:center;
@@ -38,7 +38,7 @@
 .content-box .blue-circle{
     width:100px;
     height:100px;
-    background-color:blue;
+    background-color:var(--primary);
     display:flex;
     justify-content:center;
     align-items: center;

@@ -12,7 +12,7 @@ import { BsArrowRightShort } from "react-icons/bs"
 const Seo = () => {
     return (
         <>
-            <div className="container-fluid border border-primary h-100 ">
+            <div className="container-fluid border border-primary h-100 seooooo">
                 <div className="seo-container row d-flex mt-2">
                     <div className="seo_rightdiv col-3 border border-danger ">
                         <img className="seo_rightside-img " src={image01} alt="" />
