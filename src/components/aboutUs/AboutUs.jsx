@@ -6,6 +6,7 @@ import { AboutSlider } from '../AboutSlider'
 import { Result } from '../realresults/results'
 import { Footer } from '../Footer'
 import { Whyus } from '../Whyus'
+import { AboutText } from '../AboutText'
 export const AboutUs = () => {
   return (
     <>
@@ -16,6 +17,7 @@ export const AboutUs = () => {
             <h1><span>AMPLIFIED</span></h1>
         </div>
         <Result/>
+        <AboutText/>
         <AboutSlider/>
         <Whyus/>
         <Footer/>

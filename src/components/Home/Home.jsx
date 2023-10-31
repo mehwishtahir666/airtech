@@ -9,14 +9,16 @@ import { Contact } from '../Contact'
 import Country from '../Countries'
 import { Footer } from '../Footer'
 import Solutuions from '../solutions/solutions'
+import Realstate from '../ServicesNew'
 
 export const Home = () => { 
   return (
     <>
     <Banner/>
     <About/>
-    {/* <Services/> */}
     <Solutuions/>
+    <Realstate/>
+    {/* <Services/> */}
     <Testimonials/>
     <Platforms/>
     <Contact/>
