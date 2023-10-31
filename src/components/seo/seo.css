@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif !important;
+	list-style: none;
+	box-sizing: border-box;
+	/* border:1px solid red; */
+}
+
+  
+
+:root {
+	--primary: #5C88E8;
+	--primary-white: #F6F6F6;
+	--primary--black: rgba(0, 0, 0, 0.763);
+	--small-text: 13px;
+	--normal--para: 15px;
+	--h1: 50px;
+	--h2: 25px;
+	--h3: 20px;
+	--main: 30px;
+	--border-radius: 50px;
+	--mainColor: #127A93;
+	--color1: #0C5C97;
+	--subColor: #FAD509;
+	--paragraphSize: 18px;
+	--box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
