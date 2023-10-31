@@ -8,15 +8,16 @@ import Platforms from '../Awards'
 import { Contact } from '../Contact'
 import Country from '../Countries'
 import { Footer } from '../Footer'
+import Solutuions from '../solutions/solutions'
 
-export const Home = () => {
+export const Home = () => { 
   return (
     <>
     <Banner/>
     <About/>
-    <Services/>
+    {/* <Services/> */}
+    <Solutuions/>
     <Testimonials/>
-    <Whyus/>
     <Platforms/>
     <Contact/>
     <Country/>

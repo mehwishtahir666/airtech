@@ -6,7 +6,7 @@ const Projects = () => {
     <>
       <div className='projects'>
         <div className='heading-box'>
-          <h1>Portfilio Projects</h1>
+          <h1>Web Development Projects</h1>
           <p>Our team build real-world projects to put theories into the real world implimentaion.</p>
         </div>
         <div className='button-box'>
@@ -20,7 +20,7 @@ const Projects = () => {
         <div className='card-box'>
 
           <div className="card-1 card-one">
-            <img src="/images/p1.jpg" alt="" />
+            <img src="/images/hloo1.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -30,7 +30,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1">
-            <img src="/images/p2.jpg" alt="" />
+            <img src="/images/hloo3.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1">
-            <img src="/images/p3.jpg" alt="" />
+            <img src="/images/hloo2.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -50,7 +50,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1">
-            <img src="/images/p1.jpg" alt="" />
+            <img src="/images/hloo4.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1 card-one">
-            <img src="/images/p2.jpg" alt="" />
+            <img src="/images/hloo1.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -70,7 +70,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1">
-            <img src="/images/p3.jpg" alt="" />
+            <img src="/images/hloo2.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -80,7 +80,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1">
-            <img src="/images/p1.jpg" alt="" />
+            <img src="/images/hloo3.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>
@@ -90,7 +90,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="card-1">
-            <img src="/images/p2.jpg" alt="" />
+            <img src="/images/hloo4.jpg" alt="" />
             <h3>Project name</h3>
             <small>HTML CSS</small>
             <p>in frontend</p>

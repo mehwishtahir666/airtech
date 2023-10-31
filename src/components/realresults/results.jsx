@@ -8,7 +8,7 @@ return(
     <>
     <div className="testimonials-div container-fluid extra-cross">
         <div className="testimonial_sub-div row h-100 w-100  d-flex align-items-center  ">
-            <div className="testimonial_img-div border-0 border-success mt-1   ">
+            <div className="testimonial_img-div border-0 border-success mt-1 aoa2">
                     <img className="testimonial_img " src={image001} alt="" />
               <img className="testimonial_img2" src={image002} alt="" />
             </div>
