@@ -10,6 +10,7 @@ import Country from '../Countries'
 import { Footer } from '../Footer'
 import Solutuions from '../solutions/solutions'
 import Realstate from '../ServicesNew'
+import ForMain from '../fmain/ForMain'
 
 export const Home = () => { 
   return (
@@ -24,6 +25,7 @@ export const Home = () => {
     <Contact/>
     <Country/>
     <Footer/>
+    {/* <ForMain/> */}
     </>
   )
 }
