@@ -38,11 +38,11 @@ margin-left: 6%;
 
 }
 .seo_rightpercentage-img{
-width: 5%;
+width: 22%;
 position: absolute;
-top: 20%;
+top: 14%;
 rotate:10deg;
-left: 11%;
+left: 42%;
 }
 .seo_rightside-h3{
 	font-size: var(--h3);
@@ -51,7 +51,9 @@ left: 11%;
 	font-size: var(--paragraphSize);
 }
 .seo_bulletpoints-row{
-	height: 40px;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .seo_leftdiv-h1{
 font-size: var(--main);
@@ -78,4 +80,161 @@ color: var(--primary);
 }
 .seo_leftdiv-small{
 	height: 33px;
+}
+.seo_col1{
+width:auto ;
+padding: 0;
+margin: 0%;
+
+}
+.seo_col2{
+width:auto ;
+}
+.seo_leftdiv-small{
+	height: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;	
+}
+@media screen and (max-width:1000px){
+	.seo_col1{
+	display: none;
+		
+		}
+		.seo_rightpercentage-img{
+			top: 11%;
+	
+			}		
+}
+@media screen and (max-width:927px){
+	.seo_rightpercentage-img{
+		top: 9%;
+
+		}	
+}
+@media screen and (max-width:852px){
+	.seo_rightpercentage-img{
+		top: 8%;
+
+		}	
+}
+@media screen and (max-width:759px){
+	.seo_rightpercentage-img{
+		top: 7%;
+
+		}	
+		.seo_text-reset{
+font-size: 13px;
+		}
+}
+@media screen and (max-width:692px){
+	.seo_rightpercentage-img{
+		top: 6%;
+
+		}	
+}
+@media screen and (max-width:619px){
+	.seo_rightpercentage-img{
+		top: 5%;
+
+		}	
+}
+
+@media screen and (max-width:572px){
+	.seo_col1{
+	display: block;
+		
+		}	
+		.seo_rightpercentage-img{
+			width: 20%;
+	top: 20%;
+	left: 43%;
+			}	
+}
+@media screen and (max-width:491px){
+
+		.seo_rightpercentage-img{
+		
+	top: 17%;
+
+			}	
+}
+@media screen and (max-width:460px){
+
+	.seo_rightpercentage-img{
+	
+top: 16%;
+
+		}	
+}
+@media screen and (max-width:426px){
+
+	.seo_rightpercentage-img{
+	
+top: 15%;
+
+		}	
+}
+@media screen and (max-width:389px){
+
+	.seo_rightpercentage-img{
+	
+top: 14%;
+
+		}	
+}
+@media screen and (max-width:349px){
+
+	.seo_rightpercentage-img{
+	
+top: 13%;
+
+		}	
+}
+@media screen and (max-width:321px){
+
+	.seo_rightpercentage-img{
+	
+top: 12%;
+
+		}	
+}
+@media screen and (max-width:312px){
+
+	.seo_rightpercentage-img{
+	
+top: 12%;
+
+		}	
+}
+@media screen and (max-width:285px){
+
+	.seo_rightpercentage-img{
+	
+top:10%;
+
+		}	
+}
+@media screen and (max-width:276px){
+
+	.seo_rightpercentage-img{
+	
+top: 10%;
+
+		}	
+}
+@media screen and (max-width:258px){
+
+	.seo_rightpercentage-img{
+	
+top: 9%;
+
+		}	
+}
+@media screen and (max-width:238px){
+
+	.seo_rightpercentage-img{
+	
+top: 8%;
+
+		}	
 }
