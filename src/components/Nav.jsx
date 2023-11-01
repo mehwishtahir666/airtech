@@ -26,13 +26,13 @@ export const Nav = () => {
             <Link to="/services"><li>SERVICES <BiChevronDown className='bsbs'/> 
             <ul className=''>
             <Link to="/services/seo"><li>SEO</li></Link>
+            <Link to="/service/webdevelopment"><li>Web Development</li></Link>
               <li>Marketing</li>
-              <li>Web Development</li>
               <li>App Development</li>
             </ul>
             </li></Link>
             <Link to="/portfolio"><li>PORTFOLIO</li></Link>
-            <li>TESTIMONIALS</li>
+            <Link to="/testimonial"> <li>TESTIMONIALS</li> </Link>
             <Link to="/contact"><li>CONTACT US</li></Link>
           </ul>
           <button className='bn27'>Get a Quote</button>

@@ -42,7 +42,7 @@ useEffect(()=>{
 
   return (
     <>
-      <div className="banner">
+      <div className="banner ">
         <Nav />
         {/* <div className="top-blind"></div> */}
         <div className="container-banner">

@@ -23,9 +23,9 @@ export const Home = () => {
     <Testimonials/>
     <Platforms/>
     <Contact/>
+    <ForMain/>
     <Country/>
     <Footer/>
-    {/* <ForMain/> */}
     </>
   )
 }
