@@ -33,8 +33,9 @@
 	padding-bottom:20px;
 	position: relative;
 	width: 100%;
+	background-image: url("./images/h1-s1.jpg");
 	/* background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.695) ), url("./images/alal.webp"); */
-	background-color:var(--primary);
+	/* background-color:var(--primary); */
 	background-size: 100% 100%;
 	margin-bottom:60px;
 }
