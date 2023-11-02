@@ -10,7 +10,7 @@
   
 
 :root {
-	--primary: #5C88E8;
+	--primary: rgb(92, 136, 232);
 	--primary-white: #F6F6F6;
 	--primary--black: rgba(0, 0, 0, 0.763);
 	--small-text: 13px;
@@ -4997,7 +4997,7 @@ align-items: center;
     /* color: white; */
 }
 .testimonial .right .div{
-    height: 100%;
+    height: 100%; 
     width: 100%;
 }
 .testimonial img{
@@ -5021,4 +5021,7 @@ align-items: center;
 }
 .testimonial .right p{
     margin-left: 10px;
+}
+.navD .a-banner{
+	background-image:linear-gradient(#1279937a,#12799390),url("./images/shaka.jpg") !important;
 }

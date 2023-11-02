@@ -2,15 +2,15 @@ import React from 'react'
 import Seo from "./seo/seo"
 import { Nav } from './Nav'
 import { Footer } from './Footer'
-export const SeoService = () => {
+export const AppService = () => {
   return (
     <>
-    <div className="navD">
+      <div className="navD">
     <div className='a-banner'>
         <Nav/>
         <div className="textbox">
-            <h1>SEO</h1>
-            <h1>Search Engine Optimization</h1> 
+            <h1>Andriod / ios</h1>
+            <h1>Marketing Strategy</h1> 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos officia architecto minima, quis labore nesciunt nam quae reiciendis minus impedit quam provident rem? Earum sint iusto officiis suscipit dolore!</p> 
             <button>Learn More</button>      
         </div>

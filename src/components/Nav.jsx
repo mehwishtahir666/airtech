@@ -27,8 +27,8 @@ export const Nav = () => {
             <ul className=''>
             <Link to="/services/seo"><li>SEO</li></Link>
             <Link to="/service/webdevelopment"><li>Web Development</li></Link>
-              <li>Marketing</li>
-              <li>App Development</li>
+            <Link to="/service/marketing"><li>Marketing</li></Link>
+            <Link to="/service/appdevelopment"> <li>App Development</li></Link>
             </ul>
             </li></Link>
             <Link to="/portfolio"><li>PORTFOLIO</li></Link>
