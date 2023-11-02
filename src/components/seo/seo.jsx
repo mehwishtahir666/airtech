@@ -18,7 +18,7 @@ const Seo = () => {
         <>
             <div className="container-fluid border-0 border-primary h-100 ">
                 <div className="seo-container row d-flex mt-2">
-                    <div className="seo_rightdiv sticky-top col-10 mt-0 m-auto border-0 border-danger col-sm-3">
+                    <div className="seo_rightdiv sticky-sm-top static  col-10 mt-0 m-auto border-0 border-danger col-sm-3">
                         <img className="seo_rightside-img " src={image01} alt="" />
                         <img className="seo_rightpercentage-img " src={image02} alt="" />
                         <h3 className="seo_rightside-h3 mt-4 fw-bolder">How Is Your Website’s SEO?</h3>
