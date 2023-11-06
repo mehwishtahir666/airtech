@@ -7,6 +7,7 @@ export const Footer = () => {
     <>
      <div class="footer">
         <ul class="on11">
+            <img src="/images/footerLogo.png" className='logo'  alt="" />
             <li class="bold">office</li>
             <li >2700 Fire Mesa StLas <br/>
                 Vegas, NV 89128</li>

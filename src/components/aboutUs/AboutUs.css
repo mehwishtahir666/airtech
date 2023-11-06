@@ -35,9 +35,9 @@
     background-image:url("./images/ab-banner.webp");
 }
 .ab-banner{
-    height: 71%;
+    height: auto;
     width:90%;
-    margin:0 auto;
+    margin:50px auto;
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
@@ -53,5 +53,28 @@
     font-weight:bolder;
 }
 
+
+
 /* --------------------- */
 
+@media screen and (max-width:1084px) {
+	.ab-banner{
+		padding-bottom:20px;
+	}
+}
+
+@media screen and (max-width:772px) {
+	.ab-banner h1{
+		font-size:40px;
+	}
+	.ab-banner h1 span{
+		font-size:40px;
+	}
+}
+
+
+@media screen and (max-width:394px) {
+	.ab-banner h1 , .ab-banner h1 span{
+		font-size:30px;
+	}
+}

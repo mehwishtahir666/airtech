@@ -1,5 +1,6 @@
 import React from 'react'
-import { BsCheck2 } from "react-icons/bs";
+import { BsCheck2,BsStarFill } from "react-icons/bs";
+
 
 export const TestiSec = () => {
   return (
@@ -13,28 +14,64 @@ export const TestiSec = () => {
         </div>
         <div className="right">
             <div className="div"><div className="box">
-               <div className="img"> <img src="/images/download.jpg" /></div>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <div className="img-div"><img src="/images/images (1).jpg" /> </div>
+              <div className='textt'> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              </div>
             </div>
             <div className="box">
-               <div className="img"> <img src="/images/images.jpg" /></div>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <div className="img-div"> <img src="/images/images.jpg" /></div>
+               <div className='textt'> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              </div>
             </div>
             <div className="box">
-               <div className="img"> <img src="/images/images111.jpg" /></div>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <div className="img-div"> <img src="/images/images (1).jpg" /></div>
+               <div className='textt'> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+               </div>
             </div>
             <div className="box">
-               <div className="img"> <img src="/images/download.jpg" /></div>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <div className="img-div"> <img src="/images/download.jpg" /></div>
+               <div className='textt'> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+               </div>
             </div>
             <div className="box">
-               <div className="img"> <img src="/images/images.jpg" /></div>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <div className="img-div"> <img src="/images/images.jpg" /></div>
+               <div className='textt'> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+               </div>
             </div>
             <div className="box">
-               <div className="img"> <img src="/images/images222.jpg" /></div>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <div className="img-div"> <img src="/images/images (1).jpg" /></div>
+               <div className='textt'> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, adipisci.</p>
+               <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+              <BsStarFill className='gold' />
+               </div>
             </div></div>
         </div>
     </div>

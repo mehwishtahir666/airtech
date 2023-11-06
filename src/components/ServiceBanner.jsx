@@ -3,7 +3,7 @@ import { Nav } from './Nav'
 
 export const Servicebanner = () => {
   return (
-    <div className='a-banner'>
+    <div className='a-banner a-2'>
         <Nav/>
         <div className="textbox">
             <h1>Lets Strengthn then link between </h1>

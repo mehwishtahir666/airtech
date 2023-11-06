@@ -14,7 +14,7 @@ export const Contact = () => {
       <div class="content">
         <div class="left-side">
           <div className="logo2">
-          <img src="/images/lbw1.png" alt="" />
+          <img src="/images/Transperent1.png" alt="" />
           </div>
           <div class="address details">
             <div class="topic"><CiLocationOn className='icon-con' /> Address</div>

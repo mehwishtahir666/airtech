@@ -44,10 +44,9 @@ useEffect(()=>{
     <>
       <div className="banner ">
         <Nav />
-        {/* <div className="top-blind"></div> */}
         <div className="container-banner">
           <div className="left-container">
-            <p>Trusted by 2M+ users <AiFillStar className='star star-one'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar/> </p>
+             <p className='on1-p'>Trusted by 2M+ users <AiFillStar className='star star-one'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar/> </p>
           <h1>Websitee score is important , check your Website score now</h1>
           <p className='sp-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at magni cumque iusto reiciendis vero optio aut alias recusandae nobis culpa beatae temporibus reprehenderit, hic atque architecto ex sapiente assumenda suscipit ducimus aliquam dolore provident in. Voluptate quis est placeat?</p>
           <div className="input-banner">
@@ -56,8 +55,8 @@ useEffect(()=>{
           </div>
           </div>
           <div className="right-container">
-            <div className="inner-right-con"></div>
-          </div>
+            <div className="inner-right-con"></div> 
+          </div> 
         </div>
         <div className="tabs3">
               <div className="tab11">
@@ -70,9 +69,9 @@ useEffect(()=>{
               </div>
               <div className="tab11">
               <h2 className='countM'>{count3} <span>+</span> </h2>
-                <p>Global Clients</p>
+                <p>Clients</p>
               </div>
-            </div>
+            </div> 
       </div>
     </>
   )

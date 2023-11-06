@@ -21,7 +21,7 @@ return(
                 <div className="col border-0 border-success h-100 extra-cross4">
                 <div className="testimonial_col_row1 row border-0 border-success mt-2">
                         <div className="col border-0 border-danger h-100 d-flex align-items-center extra-cross3">
-                            < BsCheck2Circle className="t_icon fs-2 "/>
+                            < BsCheck2Circle className="t_icon fs-2 lllp"/>
                             <h2 className="fs-5 mx-4 mt-1 extra-cross2">We implement marketing plans and strategies for long-term success</h2>
 
                         </div>
@@ -29,7 +29,7 @@ return(
                     </div>
                     <div className="testimonial_col_row1 row border-0 border-success mt-2">
                         <div className="col border-0 border-danger h-100 d-flex align-items-center extra-cross3">
-                            < BsCheck2Circle className="t_icon fs-2 "/>
+                            < BsCheck2Circle className="t_icon fs-2 lllp "/>
                             <h2 className="fs-5 mx-4 mt-1 extra-cross2">We have 10+ years of successful marketing partnerships under our belt</h2>
 
                         </div>
@@ -38,13 +38,13 @@ return(
 
                     <div className="testimonial_col_row1 row border-0 border-success mt-2">
                         <div className="col border-0 border-danger h-100 d-flex align-items-center extra-cross3">
-                            < BsCheck2Circle className="t_icon fs-2"/>
+                            < BsCheck2Circle className="t_icon fs-2 lllp"/>
                             <h2 className="fs-5 mx-4 mt-1 extra-cross2">On average, we’ve helped our clients achieve a 780% ROI</h2>
                         </div>
                        
                     </div>                    <div className="testimonial_col_row1 row border-0 border-success mt-2">
                         <div className="col border-0 border-danger h-100 d-flex align-items-center extra-cross3">
-                            < BsCheck2Circle className="t_icon fs-2 "/>
+                            < BsCheck2Circle className="t_icon fs-2 lllp "/>
                             <h2 className="fs-5 mx-4 mt-1 extra-cross2">We've created new opportunities for growth for all of our clients</h2>
 
                         </div>
@@ -55,7 +55,7 @@ return(
           
                 
             </div>
-            <div className="testimonial-btn  ">
+            <div className="testimonial-btn">
            BOOK A FREE CONSULTANT
             </div>
 

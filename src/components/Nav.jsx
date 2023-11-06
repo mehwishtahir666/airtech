@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { BiChevronDown } from "react-icons/bi";
+import { FcMenu } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 
 
 export const Nav = () => {
+
+  const menuShow=()=>{
+    const listSmall=document.getElementsByClassName("listSmall")[0]
+    listSmall.classList.toggle("noneList")
+  }
+
   return (
     <>
       <div className="nav">
@@ -19,9 +26,9 @@ export const Nav = () => {
         </div>
         <div className="bottom_nav">
           <div className="logo">
-            <Link to="/"><img src="/images/haris1-logo.jpg" alt="" /></Link>
+            <Link to="/"><img src="/images/Transperent1.png" alt="" /></Link>
           </div>
-          <ul>
+          <ul className='smallUl'>
             <Link to="/aboutus"><li>ABOUT</li></Link>
             <Link to="/services"><li>SERVICES <BiChevronDown className='bsbs'/> 
             <ul className=''>
@@ -36,6 +43,23 @@ export const Nav = () => {
             <Link to="/contact"><li>CONTACT US</li></Link>
           </ul>
           <button className='bn27'>Get a Quote</button>
+          <FcMenu className='menuNav' onClick={()=>{menuShow()}}/>
+          <div className="listSmall">
+          <ul>
+            <Link to="/aboutus"><li>ABOUT</li></Link>
+            <Link to="/services"><li className='bsbsbs'> <button>SERVICES <BiChevronDown className='bsbs'/> </button>
+            <ul className=''>
+            <Link to="/services/seo"><li>SEO</li></Link>
+            <Link to="/service/webdevelopment"><li>Web Development</li></Link>
+            <Link to="/service/marketing"><li>Marketing</li></Link>
+            <Link to="/service/appdevelopment"> <li>App Development</li></Link>
+            </ul>
+            </li></Link>
+            <Link to="/portfolio"><li>PORTFOLIO</li></Link>
+            <Link to="/testimonial"> <li>TESTIMONIALS</li> </Link>
+            <Link to="/contact"><li>CONTACT US</li></Link>
+          </ul>
+          </div>
         </div>
       </div>
     </>
