@@ -34,7 +34,7 @@ export const Services = () => {
             <p>Tesla started working in the telephony and electrical fields before emigrating to the United States in 1884 to work for Thomas Edison. He soon struck out on his own with financial backers, setting up laboratories/companies to develop a range of electrical devices. His patented AC induction motor and transformer were licensed by George Westinghouse, who also hired Tesla as a consultant to help develop an alternating current system . </p>
             </div>
           <div className="right-service">
-            <img src="/images/ui-1.jpg" alt="" />
+            <img src="/images/seo-1.jpeg" alt="" />
           </div>
           </li>
           

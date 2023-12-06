@@ -10,6 +10,7 @@ import { Footer } from '../Footer'
 import Realstate from '../ServicesNew'
 import ForMain from '../fmain/ForMain'
 import Solutions from '../solutions/solutions'
+import { ServiceSlider } from '../ServiceSlider'
 
 export const Home = () => { 
   return (
@@ -17,8 +18,9 @@ export const Home = () => {
     <Banner/>
     <About/>
     <Solutions/>
-    <Realstate/>
+    <Realstate/>-
     <Services/>
+    <ServiceSlider/>
     <Testimonials/>
     <Platforms/>
     <Contact/>

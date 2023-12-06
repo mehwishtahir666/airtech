@@ -13,7 +13,7 @@ const breakPoints = [
 ];
 
 const Realstate = () => {
-    const [items, setItems] = useState([1, 2, 3, 4, 5, 6,7]);
+    const [items, setItems] = useState(["/images/mango.png", "/images/banana.png", "/images/mango.png", "/images/banana.png","/images/mango.png", "/images/banana.png", "/images/mango.png"]);
     return (
         <div className='realstate'>
             <div className="left">
@@ -32,7 +32,7 @@ const Realstate = () => {
                               <h3>Website Design &</h3>
                               <h3>Development</h3>
                               <p className='p-1'>Website Design & Development</p>
-                              <img src="/images/img7.webp" alt="" />
+                              <img src={item} alt="" />
                               <li><p> <span>from</span> $480 month</p> <BsBagCheck className='icon001'/>  </li>
                             </div>
                           </div>
